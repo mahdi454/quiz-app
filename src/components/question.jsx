@@ -4,8 +4,8 @@ function Question() {
     const { questions,index}=useQuez()
     const questionsList=questions.at(index)
     return (
-        <div>
-            <h4 >{questionsList.question}</h4>
+        <div className='w-full '>
+            <h4 className='text-lg mb-2 ' >{questionsList.question}</h4>
             <Option questions={questionsList} />
 
         </div>

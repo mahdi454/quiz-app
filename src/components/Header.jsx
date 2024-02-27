@@ -1,8 +1,8 @@
 function Header() {
   return (
-    <header className='w-2/3 mb-10 flex justify-evenly items-center'>
-      <img  src='logo512.png' alt='React logo' />
-      <h1 >The React Quiz</h1>
+    <header className='w-full mb-8 flex flex-col justify-center items-center gap-2 '>
+      <img  src='logo512.png' alt='React logo' className="w-20" />
+      <h1 className="text-4xl tracking-widest font-extrabold" >The React Quiz</h1>
     </header>
   );
 }

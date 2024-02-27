@@ -5,11 +5,11 @@ function NextBtn() {
   if (answer === null) return null;
   if(index<questionLen-1)
   return (
-    <button className='btn btn-ui' onClick={clickNext}>Next</button>
+    <button className='bg-slate-600 border-2 border-slate-600 float-right px-12 py-3 rounded-full hover:bg-inherit' onClick={clickNext}>Next</button>
   )
   if(index===questionLen-1)
   return (
-    <button className='btn btn-ui' onClick={clickResult}>Finish</button>
+    <button className='bg-slate-600 border-2 border-slate-600 float-right px-12 py-3 rounded-full hover:bg-inherit' onClick={clickResult}>Finish</button>
   )
 }
 

@@ -7,7 +7,7 @@ function Timer() {
     const seconds=sec%60
 
     return (
-        <div className='timer'>{mins<10 &&'0'}{mins}:{seconds<10&&` 0`}{seconds}</div>
+        <div className='py-3 px-10 border-2 border-slate-600 float-left rounded-full'>{mins<10 &&'0'}{mins}:{seconds<10&&` 0`}{seconds}</div>
     )
 }
 
